@@ -17,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetValue.srv"
   "srv/Get3DVect.srv"
+  "srv/Recorder.srv"
 )
 
 if(BUILD_TESTING)
